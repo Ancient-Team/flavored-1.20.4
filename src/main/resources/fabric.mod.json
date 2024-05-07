@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"team.ancient.Flavored"
+			"ancient.flavored.Flavored"
 		],
 		"fabric-datagen": [
-			"team.ancient.FlavoredDataGenerator"
+			"ancient.flavored.FlavoredDataGenerator"
 		]
 	},
 	"mixins": [

@@ -1,4 +1,4 @@
-package team.ancient;
+package ancient.flavored;
 
 import net.fabricmc.api.ModInitializer;
 
