@@ -13,6 +13,6 @@ public class Flavored implements ModInitializer {
 	public void onInitialize() {
 
 
-		LOGGER.info(Flavored.MODID);
+		LOGGER.info("Flavored is initializing!");
 	}
 }
