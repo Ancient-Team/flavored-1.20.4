@@ -1,4 +1,9 @@
 package ancient.flavored.block;
 
-public class IceCreamBlock {
+import net.minecraft.block.Block;
+
+public class IceCreamBlock extends Block {
+    public IceCreamBlock(Settings settings) {
+        super(settings);
+    }
 }
