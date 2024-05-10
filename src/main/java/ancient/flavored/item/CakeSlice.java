@@ -1,21 +1,10 @@
 package ancient.flavored.item;
 
+import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 
 public class CakeSlice extends Item {
     public CakeSlice(Settings settings) {
-        super(settings);
+        super(settings.food(new FoodComponent.Builder().hunger(5).saturationModifier(0.1F).build()));
     }
-
-    public static final CakeSlice VANILLA_CAKE_SLICE = new CakeSlice(new Item.Settings());
-
-    public static final CakeSlice CHOCOLATE_CAKE_SLICE = new CakeSlice(new Item.Settings());
-
-    public static final CakeSlice BERRY_TART_SLICE = new CakeSlice(new Item.Settings());
-
-    public static final CakeSlice MINT_CAKE_SLICE = new CakeSlice(new Item.Settings());
-
-    public static final CakeSlice HONEY_CAKE_SLICE = new CakeSlice(new Item.Settings());
-
-    public static final CakeSlice CINNAMON_CAKE_SLICE = new CakeSlice(new Item.Settings());
 }

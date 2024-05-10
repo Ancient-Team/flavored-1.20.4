@@ -86,7 +86,7 @@ public class Cake extends Block {
             player.getHungerManager().add(5, 0.1F);
             int i = (Integer)state.get(BITES);
             world.emitGameEvent(player, GameEvent.EAT, pos);
-            if (i < 6) {
+            if (i < MAX_BITES) {
                 world.setBlockState(pos, (BlockState)state.with(BITES, i + 1), 3);
             } else {
                 world.removeBlock(pos, false);

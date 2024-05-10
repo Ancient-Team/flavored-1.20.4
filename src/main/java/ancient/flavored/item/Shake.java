@@ -1,21 +1,20 @@
 package ancient.flavored.item;
 
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.world.World;
 
 public class Shake extends Item {
     public Shake(Settings settings) {
         super(settings);
     }
 
-    public static final Shake VANILLA_SHAKE = new Shake(new Item.Settings());
+    public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
+        ItemStack itemStack = super.finishUsing(stack, world, user);
+        return user instanceof PlayerEntity && ((PlayerEntity)user).getAbilities().creativeMode ? itemStack : new ItemStack(Items.GLASS_BOTTLE);
+    }
 
-    public static final Shake CHOCOLATE_SHAKE = new Shake(new Item.Settings());
-
-    public static final Shake BERRY_SHAKE = new Shake(new Item.Settings());
-
-    public static final Shake MINT_SHAKE = new Shake(new Item.Settings());
-
-    public static final Shake WATERMELON_SHAKE = new Shake(new Item.Settings());
-
-    public static final Shake HONEY_SHAKE = new Shake(new Item.Settings());
 }

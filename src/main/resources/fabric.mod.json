@@ -18,9 +18,6 @@
 		"main": [
 			"ancient.flavored.Flavored"
 		],
-		"client": [
-			"ancient.flavored.Flavored"
-		],
 		"fabric-datagen": [
 			"ancient.flavored.FlavoredDataGenerator"
 		]
