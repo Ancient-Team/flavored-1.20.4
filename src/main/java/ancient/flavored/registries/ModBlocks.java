@@ -13,6 +13,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    // BerriesTart, ChocolateCake, CinnamonCake, MintCake, VanillaCake
 
     public static Block BERRIES_TART = registerBlock("berries_tart", new Cake(FabricBlockSettings.copyOf(Blocks.CAKE)));
     public static Block CHOCOLATE_CAKE = registerBlock("chocolate_cake", new Cake(FabricBlockSettings.copyOf(Blocks.CAKE)));
