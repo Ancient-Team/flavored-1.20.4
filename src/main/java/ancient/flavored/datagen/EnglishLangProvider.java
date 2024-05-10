@@ -11,5 +11,9 @@ public class EnglishLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
         // translationBuilder.add("item.flavored.flavored_item", "Flavored Item");
+
+        // Tłumaczenie nazwy i opisu moda w Mod Menu
+        // translationBuilder.add("modmenu.nameTranslation.flavored", "Flavored");
+        // translationBuilder.add("modmenu.descriptionTranslation.flavored", "Flavored Desc...");
     }
 }

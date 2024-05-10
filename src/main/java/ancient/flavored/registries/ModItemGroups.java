@@ -2,9 +2,9 @@ package ancient.flavored.registries;
 
 import ancient.flavored.Flavored;
 
-public class ModBlockEntities {
+public class ModItemGroups {
 
     public static void registerAll() {
-        Flavored.LOGGER.info("Registering BlockEntities for " + Flavored.MOD_ID);
+        Flavored.LOGGER.info("Registering ItemGroups for " + Flavored.MOD_ID);
     }
 }

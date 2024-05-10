@@ -36,5 +36,14 @@
 	},
 	"suggests": {
 		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": ""
+			},
+			"badges": [],
+			"update_checker": true
+		}
 	}
 }
