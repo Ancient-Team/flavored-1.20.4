@@ -1,6 +1,6 @@
 package ancient.flavored.util;
 
-public enum flavours {
+public enum flavors {
     BERRIES,
     CHOCOLATE,
     CINNAMON,

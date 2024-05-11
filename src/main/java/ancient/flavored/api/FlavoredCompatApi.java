@@ -1,5 +1,5 @@
 package ancient.flavored.api;
 
-public interface FlavouredCompatApi {
+public interface FlavoredCompatApi {
     void onInitializeCompat();
 }

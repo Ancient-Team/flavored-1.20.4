@@ -1,6 +1,6 @@
 package ancient.flavored;
 
-import ancient.flavored.api.FlavouredCompatApi;
+import ancient.flavored.api.FlavoredCompatApi;
 import ancient.flavored.block.ModBlocks;
 import ancient.flavored.item.ModItemGroup;
 import ancient.flavored.item.ModItems;
@@ -25,13 +25,13 @@ public class Flavored implements ModInitializer {
 
 
         // Mod Compat
-        FabricLoader.getInstance().getEntrypointContainers("flavoured", FlavouredCompatApi.class).forEach(entrypoint -> {
+        FabricLoader.getInstance().getEntrypointContainers("flavored", FlavoredCompatApi.class).forEach(entrypoint -> {
             String modId = entrypoint.getProvider().getMetadata().getId();
             try {
-                FlavouredCompatApi api = entrypoint.getEntrypoint();
+                FlavoredCompatApi api = entrypoint.getEntrypoint();
                 api.onInitializeCompat();
             }catch (Throwable e) {
-                LOGGER.error("Mod {} has a broken flavoured implementation", modId, e);
+                LOGGER.error("Mod {} has a broken flavored implementation", modId, e);
             }
         });
 
