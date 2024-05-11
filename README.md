@@ -1,4 +1,4 @@
-# Flavoured
+# Flavored
 
 # Description
 
