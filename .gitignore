@@ -15,7 +15,6 @@ classes/
 *.iml
 *.ipr
 *.iws
-*.cache
 
 # vscode
 
@@ -32,6 +31,7 @@ bin/
 # fabric
 
 run/
+*.cache/
 
 # java
 
@@ -39,3 +39,4 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+
