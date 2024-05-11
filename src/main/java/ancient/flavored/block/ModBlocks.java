@@ -1,8 +1,6 @@
-package ancient.flavored.registries;
+package ancient.flavored.block;
 
 import ancient.flavored.Flavored;
-import ancient.flavored.block.Cake;
-import ancient.flavored.block.IceCreamBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -24,13 +22,12 @@ public class ModBlocks {
     public static Block VANILLA_CAKE = registerBlock("vanilla_cake", new Cake(FabricBlockSettings.copyOf(Blocks.CAKE)));
 
     /* ICE CREAM BLOCKS */
-    public static Block BERRIES_ICE_CREAM_BLOCK = registerBlock("berries_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.ICE)));
-    public static Block CHOCOLATE_ICE_CREAM_BLOCK = registerBlock("chocolate_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.ICE)));
-    public static Block CINNAMON_ICE_CREAM_BLOCK = registerBlock("cinnamon_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.ICE)));
-    public static Block HONEY_ICE_CREAM_BLOCK = registerBlock("honey_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.ICE)));
-    public static Block MINT_ICE_CREAM_BLOCK = registerBlock("mint_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.ICE)));
-    public static Block VANILLA_ICE_CREAM_BLOCK = registerBlock("vanilla_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.ICE)));
-    public static Block WATERMELON_ICE_CREAM_BLOCK = registerBlock("watermelon_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.ICE)));
+    public static Block BERRIES_ICE_CREAM_BLOCK = registerBlock("berries_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK)));
+    public static Block CHOCOLATE_ICE_CREAM_BLOCK = registerBlock("chocolate_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK)));
+    public static Block HONEY_ICE_CREAM_BLOCK = registerBlock("honey_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK)));
+    public static Block MINT_ICE_CREAM_BLOCK = registerBlock("mint_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK)));
+    public static Block VANILLA_ICE_CREAM_BLOCK = registerBlock("vanilla_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK)));
+    public static Block WATERMELON_ICE_CREAM_BLOCK = registerBlock("watermelon_ice_cream_block", new IceCreamBlock(FabricBlockSettings.copyOf(Blocks.SNOW_BLOCK)));
 
 
     private static Block registerBlock(String name, Block block) {

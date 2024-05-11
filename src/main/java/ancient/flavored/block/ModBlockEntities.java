@@ -1,4 +1,4 @@
-package ancient.flavored.registries;
+package ancient.flavored.block;
 
 import ancient.flavored.Flavored;
 

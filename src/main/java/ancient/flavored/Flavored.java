@@ -1,8 +1,9 @@
 package ancient.flavored;
 
 import ancient.flavored.api.FlavouredCompatApi;
-import ancient.flavored.registries.ModBlocks;
-import ancient.flavored.registries.ModItems;
+import ancient.flavored.block.ModBlocks;
+import ancient.flavored.item.ModItemGroup;
+import ancient.flavored.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.loader.api.FabricLoader;
@@ -20,6 +21,8 @@ public class Flavored implements ModInitializer {
 
         ModItems.registerAll();
         ModBlocks.registerAll();
+        ModItemGroup.registerAll();
+
 
         // Mod Compat
         FabricLoader.getInstance().getEntrypointContainers("flavoured", FlavouredCompatApi.class).forEach(entrypoint -> {

@@ -1,0 +1,7 @@
+// 1.20.4	2024-05-11T09:30:39.8889029	Flavored/Block Loot Tables
+b46a453894de380a9ff0dd46e32843ac37896b2b data\flavored\loot_tables\blocks\chocolate_ice_cream_block.json
+8c6f69fbd30182647b42e71f711916b5b84a8e8b data\flavored\loot_tables\blocks\mint_ice_cream_block.json
+fc0fd3f5373847b62870c55e35d425c5333ec48b data\flavored\loot_tables\blocks\vanilla_ice_cream_block.json
+9d180aaeb68c6ef5fdadd38cc5661c8b74e22753 data\flavored\loot_tables\blocks\honey_ice_cream_block.json
+bbef243aeef587111b5a1fe52cbfb40423123591 data\flavored\loot_tables\blocks\watermelon_ice_cream_block.json
+96de7e3b7705a5dbaca5ed0a85db38380bb955cc data\flavored\loot_tables\blocks\berries_ice_cream_block.json

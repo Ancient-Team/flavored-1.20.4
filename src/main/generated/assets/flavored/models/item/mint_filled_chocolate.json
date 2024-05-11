@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "flavored:item/mint_filled_chocolate"
+  }
+}

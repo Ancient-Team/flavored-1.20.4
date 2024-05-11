@@ -4,6 +4,6 @@ import net.minecraft.item.StewItem;
 
 public class IceCream extends StewItem {
     public IceCream(Settings settings) {
-        super(settings);
+        super(settings.maxCount(16));
     }
 }

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "flavored:berries_ice_cream_block",
+    "flavored:chocolate_ice_cream_block",
+    "flavored:honey_ice_cream_block",
+    "flavored:mint_ice_cream_block",
+    "flavored:vanilla_ice_cream_block",
+    "flavored:watermelon_ice_cream_block"
+  ]
+}

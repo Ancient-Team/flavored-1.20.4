@@ -9,7 +9,7 @@ import net.minecraft.world.World;
 
 public class Shake extends Item {
     public Shake(Settings settings) {
-        super(settings);
+        super(settings.maxCount(16));
     }
 
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
